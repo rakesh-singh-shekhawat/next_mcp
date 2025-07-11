@@ -1,15 +1,9 @@
 import dynamic from "next/dynamic";
 
-const ClientComponent = dynamic(() => import("./clientComp"), { ssr: false });
-const ModalClientComponent = dynamic(() => import("./modalClient"), {
-  ssr: false,
-});
-
 const Dashboard = () => {
   return (
     <div>
-      <ClientComponent />
-      <ModalClientComponent />
+      <h1>Hello There!</h1>
     </div>
   );
 };
