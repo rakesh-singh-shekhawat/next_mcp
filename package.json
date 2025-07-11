@@ -2,6 +2,7 @@
   "name": "my-next-app",
   "version": "0.1.0",
   "private": true,
+  "author": "Rakesh Singh",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,6 +12,8 @@
   "dependencies": {
     "dotenv-cli": "^8.0.0",
     "next": "14.2.3",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.9.0",
     "pg": "^8.16.3",
     "react": "^18",
     "react-dom": "^18",
