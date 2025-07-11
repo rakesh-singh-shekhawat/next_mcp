@@ -9,8 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dotenv-cli": "^8.0.0",
+    "next": "14.2.3",
+    "pg": "^8.16.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "web-vitals": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "24.0.13",
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
   }
 }
