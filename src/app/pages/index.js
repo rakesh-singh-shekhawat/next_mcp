@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
 ("use client");
+import React, { useEffect, useState } from "react";
+
 const Dashboard = () => {
   const [data, setData] = useState(null);
 
